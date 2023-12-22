@@ -1,2005 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11384150052"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-11384150052');
-</script>
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min_html.css">
-        <link href="css-family-Muli-300-400-600-700-italic.css" rel="stylesheet">
-        <link rel="stylesheet" href="css (1)/style.css">
-        <link rel="stylesheet" type="text/css" href="css (1)/styles.css">
-        <link rel="stylesheet" type="text/css" href="css (1)/responsive.css">
-        <link rel="stylesheet" type="text/css" href="css (1)/jquery-ui1.css">
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63b5a69bc2f1ac1e202bac98/1glup5kk3';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-    </head>
-    <body style="font-family: Muli,Helvetica,Arial,sans-serif;">
-        <!-- RESPONSIVE POPUP -->
-        <style type="text/css">
-            #boxes {
-                display: none;
-                font-family: Muli,Helvetica,Arial,sans-serif;
-            }
-            #mask {
-                position: fixed !important;
-                left: 0;
-                top: 0;
-                z-index: 9000 !important;
-                background: #fff;
-                display: none;
-                height: 100% !important;
-                width: 100% !important;
-                z-index: 999;
-            }
-            #boxes .window {
-                display: none;
-                left: 15%;
-                position: fixed;
-                top: 90px !important;
-                z-index: 9999;
-                width: 700px;
-            }
-            #boxes #dialog {
-                background-color: #ffffff;
-                border-radius: 10px;
-                position: fixed !important;
-                z-index: 99999;
-            }
-            .text-success2 {
-                color: #0b4075;
-                font-size: 20px;
-                text-transform: uppercase;
-                font-weight: 600;
-                border-bottom: solid 1px #ee372b;
-                padding-bottom: 6px;
-            }
-            .home-page-popup {
-            }
-            .home-page-popup .form-horizontal .form-group {
-                margin-left: 0;
-                margin-right: 0;
-            }
-            .home-page-popup .close {
-                display: block;
-                height: 30px;
-                margin: 0 auto;
-                opacity: 0.75;
-                overflow: hidden;
-                position: absolute;
-                right: 12px;
-                text-indent: 0;
-                top: 12px;
-                width: 30px;
-            }
-            .close img {
-                height: 100%;
-                position: relative;
-                z-index: 9999999;
-            }
-            /*******************************************************************/
-            .left_content a:hover {
-                color: #920606;
-            }
-            .left_content span {
-                text-align: center;
-                display: block;
-                font-size: 20px;
-                color: #00355d;
-            }
-            .wish12 {
-                position: absolute;
-                right: 0;
-                top: 0px;
-                z-index: 2;
-                width: 400px;
-            }
-            .content_set2 {
-                margin-top: 25px;
-                display: table;
-                width: 100%;
-            }
-            .content_bx {
-                background: #fff;
-                height: calc(100vh - 80px);
-                width: 100%;
-            }
-            .bx_hding {
-                width: 100%;
-                display: table;
-                background-color: #01389f !important;
-                position: relative;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                font-size: 1rem;
-            }
-            .mymodal_body {
-                padding: 0;
-            }
-            .my_model_ctnt {
-                border: 5px solid #02416c;
-            }
-            .close2 {
-                position: absolute;
-                right: 9px;
-                top: 4px;
-                z-index: 11;
-                opacity: 1;
-                color: #fff;
-            }
-            .mymodel_here {
-                border-bottom: 0;
-                padding: 0;
-            }
-            .phoness {
-                text-align: center;
-                color: #fff;
-                padding: 10px 0;
-                letter-spacing: 0.5px;
-            }
-            .phoness span {
-            }
-            .main_img_ct {
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                padding: 20px 0 50px 0px;
-                background: #fff;
-            }
-            .cont_bx2 {
-                width: 75%; /*padding: 0 15px;*/
-            }
-            .cont_bx2 h3 {
-                font-size: 32px;
-                font-family: impact;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                line-height: 40px;
-                color: #333;
-            }
-            .cont_bx2 p {
-                font-size: 18px;
-                letter-spacing: 0.5px;
-                color: #02416c;
-                font-weight: 600;
-                margin: 10px 0;
-            }
-            .cont_bx2 h4 {
-                font-size: 22px;
-                font-weight: 600;
-                line-height: 28px;
-                color: #333;
-                text-align: center;
-                margin-bottom: 15px;
-            }
-            .cont_bx2 a {
-                font-size: 42px;
-                color: #0e6acd;
-                font-weight: 700;
-                text-decoration: none;
-                text-align: center;
-                padding: 20px 8px;
-                border-radius: 46px;
-                line-height: normal;
-                width: 68%;
-                margin: 0 auto;
-            }
-            .cont_bx2 a:hover {
-                text-decoration: none;
-            }
-            .lakdi_pn {
-                text-align: center;
-                overflow: hidden;
-                margin-top: 20px;
-            }
-            /******************************************************************/
-            /** RESONSIVE CSS START **/
-            @media (min-width: 320px) and (max-width: 479px) {
-                .cont_bx2 a {
-                    font-size: 30px;
-                }
-                .content_bx {
-                    background: #fff;
-                    height: calc(100vh - 80px);
-                    width: 100%;
-                }
-                #boxes .window {
-                    display: block;
-                    width: 100%;
-                    left: 0 !important;
-                    top: 0px !important;
-                }
-                .cont_bx2 {
-                    width: 100%; /*padding: 0 15px;*/
-                    text-align: center;
-                    margin-top: 14%;
-                }
-                .main_img_ct {
-                    padding: 20px 0 10px 0px;
-                }
-                /*.cont_bx2 a{ width:100%;}*/
-                .bx_hding {
-                    padding: 5px 0;
-                    position: fixed;
-                    bottom: 0;
-                }
-                .phoness {
-                    padding: 1rem;
-                    font-size: 14px;
-                }
-                .cont_bx2 p {
-                    font-size: 22px;
-                    letter-spacing: 0.5px;
-                    color: #1a1a1a;
-                }
-                #boxes {
-                    display: block;
-                }
-                .cont_bx2 h1 {
-                    font-size: 35px;
-                    font-weight: bolder;
-                    color: #0e6acd;
-                }
-            }
-            @media (min-width: 360px) and (max-width: 768px) {
-                .cont_bx2 a {
-                    font-size: 30px;
-                }
-                #boxes .window {
-                    display: block;
-                    width: 100% !important;
-                    left: 0 !important;
-                    top: 0px !important;
-                }
-                .cont_bx2 {
-                    width: 100%;
-                    text-align: center;
-                    margin-top: 14%;
-                }
-                .main_img_ct {
-                    padding: 20px 0 10px 0px;
-                }
-                .bx_hding {
-                    padding: 5px 0;
-                    position: fixed;
-                    bottom: 0;
-                }
-                .phoness {
-                    padding: 1rem;
-                }
-                .cont_bx2 p {
-                    font-size: 22px;
-                    letter-spacing: 0.5px;
-                    color: #1a1a1a;
-                }
-                #boxes {
-                    display: block;
-                }
-                .cont_bx2 h1 {
-                    font-size: 35px;
-                    font-weight: bolder;
-                    color: #0e6acd;
-                }
-            }
-        </style>
- <script>
-  gtag('config', 'AW-11384150052/7_0wCJyciO8YEKSwsbQq', {
-    'phone_conversion_number': '+1-858-666-8622'
-  });
-</script>
-        <!--modal-->
-        <div id="boxes">
-            <div class="home-page-popup">
-                <div style="display: none;" id="dialog" class="window">
-                    <a href="javaScript:void(0);" id="close_id" onclick="close_dilog(this.id)" class="close"> <img src="img/close-icon.png" alt="cheap flight" width="30" height="20"> </a>
-                    <div class="popup-dsgn-box">
-                        <div class="content_bx">
-                            <div class="main_img_ct">
-                                <div class="cont_bx2">
-                                    <h1>
-                                        Airlines <br>
-                                        Reservations
-                                    </h1>
-                                    <img src="img/plane_fly.png">
-                                    <h4>Contact Us</h4>
-                                    <a href="tel:+1-858-666-8622"> +1-858-666-8622 </a>
-                                </div>
-                                <a href="tel:+1-858-666-8622">
-                                    <div class="lakdi_pn" style="height: 100vh !important;">
-                                        <img src="img/phone_popup.png" alt="cheap flight">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="bx_hding">
-                            <a style="text-decoration: none;" href="tel:+1-858-666-8622">
-                                <div class="phoness">Booking, Changes, Cancellation & Inquiry</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div id="mask"></div>
-            </div>
-        </div>
-<script type="text/javascript">
-   function only_character(e)
-{
-var e=window.event || e
-var keyunicode=e.charCode || e.keyCode
-return (keyunicode>=65 && keyunicode<=122 || keyunicode==8 || keyunicode==32)? true : false
-}
-</script>
-<!--<script type="text/javascript">
-        var specialKeys = new Array();
-        specialKeys.push(8); //Backspace
-        function IsNumeric(e) {
-            var keyCode = e.which ? e.which : e.keyCode
-            var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
-            document.getElementById("error").style.display = ret ? "none" : "inline";
-            return ret;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Platefrom</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Variables */
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
         }
-    </script> -->
-   <script>
-function mobileValidate(phone) {
-   var reg=/^[0-9]{10,11}$/;
-  if(phone=='0000000000' ||  phone=='1111111111' || phone=='2222222222' || phone=='3333333333'  || phone=='4444444444' || phone=='5555555555' || phone=='6666666666' || phone=='7777777777' || phone=='8888888888' || phone=='9999999999')
-  {
-  return false;
-  }
-  else if(reg.test(phone))
-  {
-    return true;
-  }
-  else
-  {
-    return false; 
-  }
-}
- /*function validateName(name)
-  {
-    var regex = ^[a-zA-Z]+$;
-        if(regex.test(name))
-        {
-          //alert(name);
-        return true;
+
+        /* Header */
+        .navbar {
+            background-color: var(--dark-color);
         }
-       else
-       {
-        return false;
-        //alert(); 
-       }  
-  }*/
-  function isContainUrl(message)
-{
-   if(new RegExp("([a-zA-Z0-9]+://)?([a-zA-Z0-9_]+:[a-zA-Z0-9_]+@)?([a-zA-Z0-9.-]+\\.[A-Za-z]{2,4})(:[0-9]+)?(/.*)?").test(message)) {
-     return false;
-       // alert("url inside");
-}
-else
-{
-  return true;
-}
-}
-function validateEmail(email) {
-    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-    if (filter.test(email)) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
- </script>
- <script>
-function first_form()
-  {
-      var name=document.f1.name.value;  
-   var email=document.f1.email.value;
-   var phone=document.f1.phone.value;
- document.getElementById("name_err").innerHTML='';
-  document.getElementById("email_err").innerHTML='';
-  document.getElementById("phone_err").innerHTML='';
-  if(name==''){ 
-document.getElementById("name_err").innerHTML="Name Required";  
-return false;
-}
-if(email==''){  
-document.getElementById("email_err").innerHTML="Email Required";  
-return false;  
-}
-else if(!validateEmail(email))
-{  
-document.getElementById("email_err").innerHTML="Enter valid Email : Illigal charecter not allowed";  
-return false; 
-} 
-if(phone=='')
-{
-  document.getElementById("phone_err").innerHTML='Phone Required';
-  return false;
-}
-else
-{
-   if(!mobileValidate(phone))
-    {
- document.getElementById("phone_err").innerHTML='Enter valid mobile';
-  return false;
-    }
-}
-  }
-</script>
-        <script type="text/javascript">
-            function close_dilog(id) {
-                document.getElementById(id).style.display = "none";
-                document.getElementById("mask").style.display = "none";
-                document.getElementById("dialog").style.display = "none";
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--light-color);
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+        /* Banner */
+        .banner {
+            background-image: url("https://source.unsplash.com/1600x900/?digital,marketing");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner h1 {
+            color: var(--light-color);
+            font-size: 4rem;
+            text-shadow: 2px 2px 4px var(--dark-color);
+        }
+
+        .banner p {
+            color: var(--light-color);
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 2px var(--dark-color);
+        }
+
+        .banner .btn {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            font-size: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: 0;
+        }
+
+        .banner .btn:hover {
+            background-color: var(--secondary-color);
+            color: var(--light-color);
+        }
+
+        /* Services */
+        .services {
+            padding: 4rem 0;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .services .card {
+            border: none;
+            box-shadow: 0 4px 8px var(--secondary-color);
+        }
+
+        .services .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .services .card-body {
+            text-align: center;
+        }
+
+        .services .card-title {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .services .card-text {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Process */
+        .process {
+            padding: 4rem 0;
+            background-color: var(--light-color);
+        }
+
+        .process h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .process .row {
+            align-items: center;
+        }
+
+        .process .col-md-6 {
+            padding: 2rem;
+        }
+
+        .process .video {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .process .list-group-item {
+            font-size: 1.2rem;
+            border: none;
+        }
+
+        .process .list-group-item::before {
+            content: "\2713\0020";
+            color: var(--primary-color);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 4rem 0;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .testimonials .carousel-item {
+            text-align: center;
+        }
+
+        .testimonials .img-fluid {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .testimonials .blockquote {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonials .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        /* Contact */
+        .contact {
+            padding: 4rem 0;
+            background-color: var(--light-color);
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact .form-control {
+            border-radius: 0;
+        }
+
+        .contact .btn {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            font-size: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: 0;
+        }
+
+        .contact .btn:hover {
+            background-color: var(--secondary-color);
+            color: var(--light-color);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--dark-color);
+            padding: 2rem 0;
+        }
+
+        .footer .social-icons a {
+            color: var(--light-color);
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+        }
+
+        .footer .social-icons a:hover {
+            color: var(--primary-color);
+        }
+
+        .footer p {
+            color: var(--light-color);
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .banner h1 {
+                font-size: 3rem;
             }
-            setTimeout(function () {
-                document.getElementById("dialog").style.display = "block";
-                document.getElementById("mask").style.display = "block";
-                var id = "#dialog";
-                //Get the screen height and width
-                var maskHeight = $(document).height();
-                var maskWidth = $(window).width();
-                //Set heigth and width to mask to fill up the whole screen
-                $("#mask").css({
-                    width: maskWidth,
-                    height: maskHeight,
-                });
-                //transition effect
-                $("#mask").fadeIn(1000);
-                $("#mask").fadeTo("slow", 0.8);
-                //Get the window height and width
-                var winH = $(window).height();
-                var winW = $(window).width();
-                //Set the popup window to center
-                $(id).css("top", winH / 2 - $(id).height() / 2);
-                $(id).css("left", winW / 2 - $(id).width() / 2);
-                //transition effect
-                $(id).fadeIn(2000);
-                //if close button is clicked
-                $(".window .close").click(function (e) {
-                    //Cancel the link behavior
-                    e.preventDefault();
-                    $("#mask").hide();
-                    $(".window").hide();
-                });
-                //if mask is clicked
-                $("#mask").click(function () {
-                    $(this).hide();
-                    $(".window").hide();
-                });
-            }, 1000);
-        </script>
-        <!-- RESPONSIVE POPUP -->
-    <!-- HEADER CODE -->
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63937ab6daff0e1306dbcb19/1gjs1emso';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-<nav class="navbar navbar-expand fixed-top">
-            <div class="container">
-                <a class="navbar-brand-logo" style="font-size: 28px; color: #fff; font-weight: 800;">
-                    skyfaretravelservice
-                </a>
-                <div class="collapse navbar-collapse">
-                    <!---->
-                    <div class="phone-number-header ml-auto">
-                        <a class="d-none d-md-block" href="tel:+1-858-666-8622"> <span style="font-size:14px;"> Toll Free : </span> +1-858-666-8622</a>
-                        <a class="d-md-none visible-phone" href="tel:+1-858-666-8622"><i class="fa fa-mobile" aria-hidden="true"></i> CALL</a>
-                    </div>
-                    <input hidden="" id="nav-right-toggle" type="checkbox"><label class="nav-right-toggle" for="nav-right-toggle"></label>
-                    <div class="nav-right">
-                        <ul>
-                            <li><a href="index_html.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="mask-content"></div>
-                </div>
-            </div>
-        </nav>    <!-- HEADER CODE -->
-        <div class="call-fix-strip">
-            <ul>
-                <li>
-                    Call now for <br>
-                    Changes & Cancellation
-                </li>
-                <li>
-                    <a href="Tel:+1-858-666-8622"><img src="assets/img/download.png"> Call</a>
-                </li>
-                <li></li>
-            </ul>
-        </div>
-        <div id="main-content">
-            <header class="bg-main" style="background-image: url('assets/img/business/business-class-flights-china.jpg'); padding: 40px 0 100px 0px; position:relative;">
-                <div class="container">
-                    <div class="col-lg-12 top-text">
-                        <h2 style="color: #ffffff;">
-                            <br>
-                            <strong>
-                                Book your best flight with us & get amazing deals <br>
-                                Call Now <a href="tel:+1-858-666-8622" style="color: #ffeb3b; text-decoration: none;"> +1-858-666-8622 </a>
-                            </strong>
-                        </h2>
-                    </div>
-                    <div class="col-md-12 block-form">
-                        <div class="trip-type col-md-6">
-                            <a id="round-trip" class="btn-t btn-return active">Round-Trip</a>
-                            <a id="one-way" class="btn-t btn-one-way">One-way</a>
-                            <a id="multi-city" class="btn-t btn-multi">Multi-city</a>
-                        </div>
-                        <div class="form-bg">
-                            <!-- ////////////////////////////////////////////////////////////////////////////////
-                //////////////////// client side validation section start here////////////////// 
-                //////////////////////////////////////////////////////////////////////////////// -->
-                            <script>
-                                function check_multi_form() {
-                                    /////////// Multi-Trip form-1 validation Start Here ///////////////
-                                    //from multi city
-                                    var from_multi_city = document.getElementById("from_multi_city").value;
-                                    document.getElementById("from_multi_city_err").innerHTML = "";
-                                    if (from_multi_city == "") {
-                                        document.getElementById("from_multi_city_err").innerHTML = "Flying From-City is Required ";
-                                        return false;
-                                    }
-                                    //to multi city
-                                    var to_multi_city = document.getElementById("to_multi_city").value;
-                                    document.getElementById("to_multi_city_err").innerHTML = "";
-                                    if (to_multi_city == "") {
-                                        document.getElementById("to_multi_city_err").innerHTML = "Flying To-City is Required ";
-                                        return false;
-                                    }
-                                    //Departure Date multi
-                                    var date_multi_city = document.getElementById("date_multi_city").value;
-                                    document.getElementById("date_multi_city_err").innerHTML = "";
-                                    if (date_multi_city == "") {
-                                        document.getElementById("date_multi_city_err").innerHTML = "Departure Date is Required ";
-                                        return false;
-                                    }
-                                    /////////// Multi-Trip form-1 validation End Here ///////////////
-                                    /////////// Multi-Trip form-2 validation Start Here ///////////////
-                                    //from multi city
-                                    var from_multi_city2 = document.getElementById("from_multi_city2").value;
-                                    document.getElementById("from_multi_city2_err").innerHTML = "";
-                                    if (from_multi_city2 == "") {
-                                        document.getElementById("from_multi_city2_err").innerHTML = "Flying From-City is Required ";
-                                        return false;
-                                    }
-                                    //to multi city
-                                    var to_multi_city2 = document.getElementById("to_multi_city2").value;
-                                    document.getElementById("to_multi_city2_err").innerHTML = "";
-                                    if (to_multi_city2 == "") {
-                                        document.getElementById("to_multi_city2_err").innerHTML = "Flying To-City is Required ";
-                                        return false;
-                                    }
-                                    //Departure Date multi
-                                    var date_multi2_city = document.getElementById("date_multi2_city").value;
-                                    document.getElementById("date_multi_city2_err").innerHTML = "";
-                                    if (date_multi2_city == "") {
-                                        document.getElementById("date_multi_city2_err").innerHTML = "Departure Date is Required ";
-                                        return false;
-                                    }
-                                    /////////// Multi-Trip form-2 validation End Here ///////////////
-                                    /////////// Multi-Trip form-3 validation Start Here ///////////////
-                                    //from multi city
-                                    var from_multi_city3 = document.getElementById("from_multi_city3").value;
-                                    document.getElementById("from_multi_city3_err").innerHTML = "";
-                                    if (from_multi_city3 == "") {
-                                        document.getElementById("from_multi_city3_err").innerHTML = "Flying From-City is Required ";
-                                        return false;
-                                    }
-                                    //to multi city
-                                    var to_multi_city3 = document.getElementById("to_multi_city3").value;
-                                    document.getElementById("to_multi_city3_err").innerHTML = "";
-                                    if (to_multi_city3 == "") {
-                                        document.getElementById("to_multi_city3_err").innerHTML = "Flying To-City is Required ";
-                                        return false;
-                                    }
-                                    //Departure Date multi
-                                    var date_multi3_city = document.getElementById("date_multi3_city").value;
-                                    document.getElementById("date_multi_city3_err").innerHTML = "";
-                                    if (date_multi3_city == "") {
-                                        document.getElementById("date_multi_city3_err").innerHTML = "Departure Date is Required ";
-                                        return false;
-                                    }
-                                    /////////// Multi-Trip form-3 validation End Here ///////////////
-                                    /////////// Multi-Trip form-4 validation Start Here ///////////////
-                                    //from multi city
-                                    var from_multi_city4 = document.getElementById("from_multi_city4").value;
-                                    document.getElementById("from_multi_city4_err").innerHTML = "";
-                                    if (from_multi_city4 == "") {
-                                        document.getElementById("from_multi_city4_err").innerHTML = "Flying From-City is Required ";
-                                        return false;
-                                    }
-                                    //to multi city
-                                    var to_multi_city4 = document.getElementById("to_multi_city4").value;
-                                    document.getElementById("to_multi_city4_err").innerHTML = "";
-                                    if (to_multi_city4 == "") {
-                                        document.getElementById("to_multi_city4_err").innerHTML = "Flying To-City is Required ";
-                                        return false;
-                                    }
-                                    //Departure Date multi
-                                    var date_multi_city4 = document.getElementById("date_multi_city4").value;
-                                    document.getElementById("date_multi_city4_err").innerHTML = "";
-                                    if (date_multi_city4 == "") {
-                                        document.getElementById("date_multi_city4_err").innerHTML = "Departure Date is Required ";
-                                        return false;
-                                    }
-                                    /////////// Multi-Trip form-4 validation End Here ///////////////
-                                    /////////// Multi-Trip form-5 validation Start Here ///////////////
-                                    //from multi city
-                                    // var from_multi_city5=document.getElementById("from_multi_city5").value;
-                                    // document.getElementById("from_multi_city5_err").innerHTML='';
-                                    // if(from_multi_city5=='')
-                                    // {
-                                    //   document.getElementById("from_multi_city5_err").innerHTML='Flying From-City is Required ';
-                                    //   return false;
-                                    // }
-                                    //to multi city
-                                    // var to_multi_city5=document.getElementById("to_multi_city5").value;
-                                    // document.getElementById("to_multi_city5_err").innerHTML='';
-                                    // if(to_multi_city5=='')
-                                    // {
-                                    //   document.getElementById("to_multi_city5_err").innerHTML='Flying To-City is Required ';
-                                    //   return false;
-                                    // }
-                                    //Departure Date multi
-                                    // var date_multi_city5=document.getElementById("date_multi_city5").value;
-                                    // document.getElementById("date_multi_city5_err").innerHTML='';
-                                    // if(date_multi_city5=='')
-                                    // {
-                                    //   document.getElementById("date_multi_city5_err").innerHTML='Departure Date is Required ';
-                                    //   return false;
-                                    // }
-                                    /////////// Multi-Trip form-5 validation End Here ///////////////
-                                }
-                            </script>
-                            <!-- ////////////////////////////////////////////////////////////////////////////////
-                //////////////////// client side validation section End here////////////////// 
-                //////////////////////////////////////////////////////////////////////////////// -->
-                            <!-- /////////////////////////////////////////////////////////////// -->
-                            <!--/////////////////form section start here////////////////////////-->
-                            <!-- /////////////////////////////////////////////////////////////// -->
-                            <form class="ng-untouched ng-pristine ng-invalid" method="post" name="f1" action="form_email.html" onsubmit="return first_form();">
-                                <input type="hidden" name="_method" value="search">
-                                <!--////////// Round-Trip Section Start Here /////////////-->
-                                <div class="row" id="round-trip-form">
-                                    <div class="col-6 col-md-3 padding-none">
-                                        <input autocomplete="off" id="getAirport1" class="form-control ng-untouched ng-pristine ng-valid" name="from_ap1" placeholder="Flying from?" type="text" required="">
-                                    </div>
-                                    <div class="col-6 col-md-3 padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <input autocomplete="off" id="getAirport2" class="form-control ng-untouched ng-pristine ng-invalid" name="to_ap1" placeholder="Flying to?" type="text" required="">
-                                        <span class="xIcon"></span>
-                                    </div>
-                                    <div class="col-12 col-md-3 padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <div class="row date-input">
-                                            <div class="col-6 col-md-6 padding-none depart-rt">
-                                                <input autocomplete="off" class="form-control" placeholder="Depart" name="date_ap1" id="datedepart" required="" type="text">
-                                            </div>
-                                            <div class="dash">-</div>
-                                            <div class="col-6 col-md-6 padding-none return-rt"><input id="datedepart2" autocomplete="off" class="form-control" name="date_ap2" placeholder="Return" type="text"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-1 traveler-div padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <select name="psngr" class="BusinessClassClick form-control">
-                                            <option value="1" selected="selected">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 col-md-2 padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <select name="clas" class="BusinessClassClick form-control">
-                                            <option value="business" selected="selected">Business Class</option>
-                                            <option value="first-class">First Class</option>
-                                            <option value="economy">Economy Class</option>
-                                            <option value="economy-first">Economy+ Class</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--////////// Round-Trip Section End Here /////////////-->
-                                <!-- ///////////////////////////////////////////////////// -->
-                                <!--////////// Multi-Trip Section Start Here /////////////-->
-                                <!-- ///////////////////////////////////////////////////// -->
-                                <div class="multi-section d-none">
-                                    <!-- /////////// Multi-Trip form-1 Start Here /////////////// -->
-                                    <div id="round-trip-form" class="row form-comm-row row-one-way-fix">
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <input autocomplete="off" id="from_multi_city" class="form-control ng-untouched ng-pristine ng-valid" name="from_multi" placeholder="Flying from?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="from_multi_city_err"></span>
-                                        </div>
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <input autocomplete="off" id="to_multi_city" class="form-control ng-untouched ng-pristine ng-invalid" name="to_multi" placeholder="Flying to?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="to_multi_city_err"></span>
-                                        </div>
-                                        <div class="col-12 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <div class="row date-input">
-                                                <div class="col-6 col-md-12 padding-none depart-rt">
-                                                    <input autocomplete="off" class="form-control" name="date_multi" placeholder="Depart" id="date_multi_city" type="text">
-                                                    <span style="text-decoration: underline; color: #de1921;" id="date_multi_city_err"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /////////// Multi-Trip form-1 End Here /////////////// -->
-                                    <!-- /////////// Multi-Trip form-2 Start Here /////////////// -->
-                                    <div id="round-trip-form" class="row form-comm-row row-one-way d-none">
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <input autocomplete="off" id="from_multi_city2" class="form-control ng-untouched ng-pristine ng-valid" name="from_multi2" placeholder="Flying from?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="from_multi_city2_err"></span>
-                                        </div>
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <input autocomplete="off" id="to_multi_city2" class="form-control ng-untouched ng-pristine ng-invalid" name="to_multi2" placeholder="Flying to?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="to_multi_city2_err"></span>
-                                        </div>
-                                        <div class="col-12 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <div class="row date-input">
-                                                <div class="col-6 col-md-12 padding-none depart-rt">
-                                                    <input autocomplete="off" class="form-control" name="date_multi2" placeholder="Depart" id="date_multi2_city" type="text">
-                                                    <span style="text-decoration: underline; color: #de1921;" id="date_multi_city2_err"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /////////// Multi-Trip form-2 End Here /////////////// -->
-                                    <!-- /////////// Multi-Trip form-3 End Here /////////////// -->
-                                    <div id="round-trip-form" class="row form-comm-row row-one-way d-none">
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <input autocomplete="off" id="from_multi_city3" class="form-control ng-untouched ng-pristine ng-valid" name="from_multi3" placeholder="Flying from?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="from_multi_city3_err"></span>
-                                        </div>
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <input autocomplete="off" id="to_multi_city3" class="form-control ng-untouched ng-pristine ng-invalid" name="to_multi3" placeholder="Flying to?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="to_multi_city3_err"></span>
-                                        </div>
-                                        <div class="col-12 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <div class="row date-input">
-                                                <div class="col-6 col-md-12 padding-none depart-rt">
-                                                    <input autocomplete="off" class="form-control" name="date_multi3" placeholder="Depart" id="date_multi3_city" type="text">
-                                                    <span style="text-decoration: underline; color: #de1921;" id="date_multi_city3_err"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /////////// Multi-Trip form-3 End Here /////////////// -->
-                                    <!-- /////////// Multi-Trip form-4 Start Here /////////////// -->
-                                    <div id="round-trip-form" class="row form-comm-row row-one-way d-none">
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <input autocomplete="off" id="from_multi_city4" class="form-control ng-untouched ng-pristine ng-valid" name="from_multi4" placeholder="Flying from?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="from_multi_city4_err"></span>
-                                        </div>
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <input autocomplete="off" id="to_multi_city4" class="form-control ng-untouched ng-pristine ng-invalid" name="to_multi4" placeholder="Flying to?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="to_multi_city4_err"></span>
-                                        </div>
-                                        <div class="col-12 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <div class="row date-input">
-                                                <div class="col-6 col-md12 padding-none depart-rt">
-                                                    <input autocomplete="off" class="form-control" name="date_multi4" placeholder="Depart" id="date_multi_city4" type="text">
-                                                    <span style="text-decoration: underline; color: #de1921;" id="date_multi_city4_err"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /////////// Multi-Trip form-4 End Here /////////////// -->
-                                    <!-- /////////// Multi-Trip form-5 Start Here /////////////// -->
-                                    <div id="round-trip-form" class="row form-comm-row row-one-way d-none">
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <input autocomplete="off" id="from_multi_city5" class="form-control ng-untouched ng-pristine ng-valid" name="from_multi5" placeholder="Flying from?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="from_multi_city5_err"></span>
-                                        </div>
-                                        <div class="col-6 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <input autocomplete="off" id="to_multi_city5" class="form-control ng-untouched ng-pristine ng-invalid" name="to_multi5" placeholder="Flying to?" type="text">
-                                            <span style="text-decoration: underline; color: #de1921;" id="to_multi_city5_err"></span>
-                                        </div>
-                                        <div class="col-12 col-md-3 padding-none">
-                                            <div class="bg-border-gray d-none d-md-block"></div>
-                                            <div class="row date-input">
-                                                <div class="col-6 col-md-12 padding-none depart-rt">
-                                                    <input autocomplete="off" class="form-control" name="date_multi5" placeholder="Depart" id="date_multi_city5" type="text">
-                                                    <span style="text-decoration: underline; color: #de1921;" id="date_multi_city5_err"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /////////// Multi-Trip form-5 End Here /////////////// -->
-                                    <div id="round-trip-form" class="row row-add-dlt" style="">
-                                        <div class="col-lg-7 col-md-7 col-sm-12 col-12 text-left padding-none">
-                                            <div class="btn-group add-del-group mr-2" role="group" aria-label="Second group">
-                                                <button type="button" class="btn btn-success btn-sm btn-add-oneway" style="">Add flight</button>
-                                                <button type="button" class="btn btn-danger btn-sm btn-remove-oneway" style="display: none;">Remove flight</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ///////////////////////////////////////////////////// -->
-                                <!--////////// Multi-Trip Section End Here ///////////////-->
-                                <!-- ///////////////////////////////////////////////////// -->
-                                <div class="row justify-content-md-center" id="formLine">
-                                    <div class="col-md-3 padding-none">
-                                        <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" placeholder="Name" name="name" onkeypress="return only_character(event)" id="txtname" type="text">
-                                   <span class="" id="name_err" style="color: red;"></span>
-                   </div>
-                                    <div class="col-md-3 padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <input autocomplete="off" name="email" id="txtemail" class="form-control ng-untouched ng-pristine ng-invalid" placeholder="Email" type="email">
-                    <span class="" id="email_err" style="color: red;"></span>
-                                    </div>
-                                    <div class="col-md-3 padding-none">
-                                        <div class="bg-border-gray d-none d-md-block"></div>
-                                        <input class="form-control ng-untouched ng-pristine ng-invalid" name="phone" id="txtmobile" maxlength="11" placeholder="Phone" type="tel"><span class="xIcon"></span>
-                    <span class="" id="phone_err" style="color: red;"></span>
-                                        <input type="hidden" name="airlinesname" value="delta airlines">
-                                    </div>
-                                    <div class="col-md-3 padding-none">
-                                        <input class="btn btn-form" type="submit" name="submit" value="Get Quote">
-                                        <!-- <button  type="button"></button> -->
-                                        <small class="privacy-form">We value your <a href="privacy-policy.html">privacy.</a></small>
-                                    </div>
-                                </div>
-                                <!---->
-                            </form>
-                            <!-- /////////////////////////////////////////////////////////////// -->
-                            <!--/////////////////form section End here////////////////////////-->
-                            <!-- /////////////////////////////////////////////////////////////// -->
-                        </div>
-                        <div class="row call-bottom-info">
-                            <div class="col-md-12 text-center">
-                                <span>Call now for instant quotes <a href="tel:+1-858-666-8622">+1-858-666-8622</a></span>
-                            </div>
-                        </div>
-                        <!---->
-                    </div>
-                    <div class="justify-content-center">
-                        <!--
-            <h1 style="color:white;" >Lowest United skyfaretravelservice Guarantee</h1> -->
-                        <h4 class="Ptrfix">
-                            <strong><span> Book your best flight with us & get amazing deals Call Us Now +1-858-666-8622 </span></strong>
-                        </h4>
-                        <!---->
-                    </div>
-                </div>
-            </header>
-            <section id="service" style="padding:40px 0;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 service-text" style="margin-bottom:25px;">
-                            <h2 class="mt-4"> Select Your Best Destination all Over the World </h2>
-                            <p> Book your best flight with us & get amazing deals </p>
-                            <p> Do Your Flight Reservations with skyfaretravelservice
- </p>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w1.svg">
-                                <div class="service-block-body">
-                                    <h4> Best Price Guarantee </h4>
-                                    <p> Book Your Flight With Us at best Price </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w2.svg">
-                                <div class="service-block-body">
-                                    <h4> Easy Booking </h4>
-                                    <p> Simple & Easy Flight Ticket Booking Service </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w3.svg">
-                                <div class="service-block-body">
-                                    <h4> Last Minute Deal </h4>
-                                    <p> Last minute deals are available at lowest fare</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--<div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w4.svg" />
-                                <div class="service-block-body">
-                                    <h4>BEST ITINERARIES</h4>
-                                    <p>We find the best deals through booking strategies, industry contacts and our proprietary deals.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w5.svg" />
-                                <div class="service-block-body">
-                                    <h4>GENUINE SKILLS</h4>
-                                    <p>Our experts have extensive knowledge of flight routing, loyalty programs and skyfaretravelservice pricing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="service-block">
-                                <img alt="" class="service-block-icon" src="assets/img/icons/w6.svg" />
-                                <div class="service-block-body">
-                                    <h4>TRUST AND CREDIBILITY</h4>
-                                    <p>In business since 2006 with excellent BBB, Google reviews and Yelp ratings.</p>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </section>
-            <section id="app" class="">
+
+            .banner p {
+                font-size: 1.2rem;
+            }
+        }
+
+        :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 4rem 0;
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .contact label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0;
+  }
+
+  .contact input:focus, .contact textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+
+  .contact .btn {
+    display: block;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+  }
+
+  .contact .btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact .form-group {
+      width: 100%;
+    }
+  }
+
+
+
+  /* Variables */
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+
+  /* Paragraph about digital marketing */
+  .digital-marketing {
+    padding: 2rem;
+  }
+
+  .digital-marketing h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .digital-marketing p {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-8 col-lg-8">
-              <div class="app-text">
-                <h3>Why Us ?</h3>
-                <ul>
-                  <span class="text-white">
-                    <li>Our International exclusive deals are not available online <br>
-                      ( so please email or call for a quote )
+            <a class="navbar-brand" href="#">Digital Marketing Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#banner">Home</a>
                     </li>
-                    <li>We have net fares originating in europe in either business/coach class</li>
-                    <li>We can do one way fares to/from the us and europe in business/coach class</li>
-                    <li>Most of the time we can help you if you don't have minimum stay required<br>
-                      ( or advance purchase by the airline )
-                    </li>
-                        <li>Cancellation with in 7 days at free of cost</li>
-                    <li>We have a price meet or beat policy <br>
-                      ( so please let us know if you find any better deal )
-                    </li>
-                    <li> Affordable bulk airline tickets on discount</li>
-                    <li> Flights in emergencies and during busy seasons</li>
-                    <li>Travel services for all types of group and religious travelers</li>
-                    <li> Flights to all types of destinations</li>
-                    <li> Tour travel planning and custom itineraries</li>
-                    <li> Time-saving airline ticket purchases</li>
-                    <li> Large selection of airlines</li>
-                    <li> Industry experience on group travel</li>
-                  </span>
+                    
                 </ul>
-              </div>
-              <div class="button-block">
-                <a class="app-learn-more" routerlink="/app-page" href="index_php.html">Learn More </a>
-              </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 d-none d-md-block"><img alt="" class="app-phone" src="assets/img/planes.png"></div>
-          </div>
         </div>
-      </section>
-            <section id="newsletter">
-                <div class="container">
-                    <!----><!---->
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5">
-                            <h4 class="text-white">Hot deals newsletter</h4>
-                            <span class="text-white">Sign up for email deals, special offers and promotions.</span>
-                        </div>
-                        <form class="form-inline col-md-12 col-lg-7 ng-untouched ng-pristine ng-invalid" novalidate="">
-                            <div class="col-9 padding-none"><input class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="email" id="inputEmail4" placeholder="Your email address" type="email" value=""></div>
-                            <div class="col-3 padding-none"><button class="btn" type="button">Sign Up</button></div>
-                        </form>
-                    </div>
-                    <!---->
+    </nav>
+    <!-- Banner -->
+    <section id="banner" class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h1>We help you grow your business online</h1>
+                    <p>We are a digital marketing agency that offers SEO, SEM, SMM, web design and development services.</p>
+                    <a href="#contact" class="btn">Get a free quote</a>
                 </div>
-            </section>
+            </div>
         </div>
-        <section id="reviews">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 reviews-text">
-                        <h2 class="mt-4">Don't just take our word for it.</h2>
-                        <p>For credibility and transparency we use Yelp and Google to collect reviews.</p>
-                    </div>
-                    <!--                   <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="s3uarBkX6HdcVeiHhUpMWw">Read <a href="https://www.yelp.com/user_details?userid=xeTDGPsmD59Dh0YVhF4B9Q" rel="nofollow noopener">Paul V.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=s3uarBkX6HdcVeiHhUpMWw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="Hmao_-GyTX5by2JJkWuuJg">Read <a href="https://www.yelp.com/user_details?userid=xfqL4DJJi2WBqDGRmfzfGQ" rel="nofollow noopener">Aimee N.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=Hmao_-GyTX5by2JJkWuuJg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="8p6_GYdaTeFSUT7X-d37cQ">Read <a href="https://www.yelp.com/user_details?userid=VlsSD8CaXA2r_ABWUAIeYw" rel="nofollow noopener">Tim B.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=8p6_GYdaTeFSUT7X-d37cQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="77wnS4T_znDYYYjgQ-6fTQ">Read <a href="https://www.yelp.com/user_details?userid=v0fCn_9zT4cxxDwAaicWxA" rel="nofollow noopener">Arthur A.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=77wnS4T_znDYYYjgQ-6fTQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-md-block"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="xkZJW3hFXLb4-_AlRAzJnQ">Read <a href="https://www.yelp.com/user_details?userid=2lXErjqFW2cVHOOfgbZXag" rel="nofollow noopener">Christine B.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=xkZJW3hFXLb4-_AlRAzJnQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-md-block"><span class="yelp-review" data-hostname="www.yelp.com" data-review-id="2yKvbSbkJ_fss5RlTk5HHQ">Read <a href="https://www.yelp.com/user_details?userid=PBJsZhpUNZgcfgym76HLXw" rel="nofollow noopener">Alisa N.</a>'s <a href="https://www.yelp.com/biz/business-class-guru-burlingame-2?hrid=2yKvbSbkJ_fss5RlTk5HHQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/O97a_t4NpqwlUYffpf9Pqg" rel="nofollow noopener">Business Class Guru</a> on <a href="https://www.yelp.com/" rel="nofollow noopener">Yelp</a></span></div> -->
-                    <app-script-inline _nghost-sc11=""> </app-script-inline>
-                    <div id="carouselExampleIndicators" class="c-desktop carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Linda M. Swansonh</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My trip was fairly complex, and the young man who helped me was wonderful. At no time did he get frustrated and therefore neither did I. He was so helpful with the overseas airline
-                                                reservations,upgrades on seats, dates of travel, other specifics (seat selection, vegetarian meals, security pre-check). He was terrific, patient, polite and personable. I can not express how
-                                                thankful I am for the good job well done. Thanks again, Alex.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Jennie B. Swain</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I travel a lot and I have used various companies to book my ticket online. Last time I used skyfaretravelservice.com and I can say for sure I am never using anything else! This is by far the
-                                                best website to find low ticket fares. It took me less than five minutes to book my Christmas tickets and I was also able to save money on them!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Leroy Felde</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I highly recommend this site because of their great customer service. Flightsbird make my journey hassle free & I got a better price than booking directly with the airline. Keep up the
-                                                good work.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Margaret W. Scheule</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                Clear pricing and always get best deals . Clear support for any changes or questions with flights. <br>
-                                                You will be glad you used them.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Jennifer J. Riddel </span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I booked airline tickets for 7 people to Rome round trip and got a great price! I read the reviews after I did and some of them scared me so much we wanted to cancel. I thought I had 24 hours
-                                                to do so and that is true, but you need to really read the fine print. There is a cancellation charge after 4 hours. I called and spoke to Darren who said to email him to cancel And there
-                                                would be a charge. Of course I gave him a hard time but I did not read the fine print. I asked about seat assignments and he said the airline would do that just contact them. So I called
-                                                Alitalia and Delta who confirmed our flights. They were wonderful about giving us seat assignments and they both said that skyfaretravelservice.com is legit. I called Darren back and
-                                                apologized for giving him a hard time and that I was not cancelling. He was very gracious. I give them an excellent customer service rating! Do not believe all the bad stuff you read!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Wendy Robinson</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The Associate skyfaretravelservice.com from that I worked with over the phone was fantastic and very patient with me. She helped me with 4 airline tickets, all the seating, then helped me
-                                                with a rent a car also! 5 star service!!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Linda M. Swanson</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My trip was fairly complex, and the young man who helped me was wonderful. At no time did he get frustrated and therefore neither did I. He was so helpful with the overseas airline
-                                                reservations, upgrades on seats, dates of travel, other specifics (seat selection, vegetarian meals, security pre- check). He was terrific, patient, polite and personable. I can not express
-                                                how thankful I am for the good job well done.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Tarry Fletcher</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I am happy to have booked with you skyfaretravelservice.com for the price and the service you gave me. All is fine, stay as you are, professional. kind, rapid. Thank you And you need more,
-                                                what can I say. The chatting with your representative was very useful and you gave me what I needed when I wanted to change the departure date.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Rose M Thomas</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                Always my favorite place to book my Trips. People how I called them. They are very friendly and very knowledgeable. They went through every aspect of my reservation, immediately when I place
-                                                the call the responses was prompt and detailed aspects.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Nancy Wight</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I appreciated the call I received to help me finish booking my flight, as well as the benefits that I got for doing so. However, it is quite annoying that, by the time you have finished
-                                                filling out the required information for a flight, the price you had originally seen seems to disappear. Something should be done to make the experience less annoying and frustrating for
-                                                customers who wish to save money.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Cheryl Roy</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I spoke to an agent directly because of location I was flying to, needed to be sure there were seats as flights limited. Agent was extremely helpful. There are times when you need a real
-                                                person and not simply book online, very pleased with experience.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Diana B Holloway</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The man who helped me I am very thankful for, as I needed to leave that next day. Over and above. Thank you so much. I got to my family in time and can not thank you enough for what you have
-                                                done for me.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Kimberly Cowles</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                We are pleased with the efficiency of the representative who helped us change our flight date. There was a charge which we expected, but not too bad. They were very kind and helpful making our
-                                                travel plans work for us.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Randy Wear</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                We were unexpectedly disconnected when I was receiving assistance from one of skyfaretravelservice.com agents with an international flight. And he called me back!! I have never experienced
-                                                that before. When that happened in the past, I have needed to call again and start over with another agent. I was very impressed with this man.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Marsha Pickens</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The skyfaretravelservice.com agent, Darren, was patient and efficient and careful of the details, especially the layover times when she could make the choice. Darren followed the requirements
-                                                I gave her and explained anything I questioned including costs. I will definitely recommend skyfaretravelservice.com to friends.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Destiny Fischler</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                People on your office are accommodating and nice to talk to. They assisted me all the way for my future flight. Thank you to Darren for the help and they can easily to talk to. I hope on my
-                                                next travel rest assure that I will be counting on your office for the booking ok again. Thanks!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-lg-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Barbara A Stricker</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My experience with skyfaretravelservice.com was a great one. The customer that helped me was very helpful. I could understand her and she was very knowledgeable in what I was trying to
-                                                achieve. I will use skyfaretravelservice.com again when I travel again. I will tell my friends about my great experience with skyfaretravelservice.com.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4 d-none d-xl-block">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Marsha Pickens</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The skyfaretravelservice.com agent, Darren, was patient and efficient and careful of the details, especially the layover times when she could make the choice. Darren followed the requirements
-                                                I gave her and explained anything I questioned including costs. I will definitely recommend skyfaretravelservice.com to friends.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    </section>
+    <!-- Services -->
+    <!-- <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/500x300/?seo" alt="SEO" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Search Engine Optimization</h3>
+                            <p class="card-text">We optimize your website for the best ranking on Google and other search engines.</p>
                         </div>
                     </div>
-                    <div id="carouselExampleIndicators-mobile" class="c-phone carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="5"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="6"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="7"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="8"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="9"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="10"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="11"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="12"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="13"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="14"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="15"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="16"></li>
-                            <li data-target="#carouselExampleIndicators-mobile" data-slide-to="17"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Linda M. Swansonh</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My trip was fairly complex, and the young man who helped me was wonderful. At no time did he get frustrated and therefore neither did I. He was so helpful with the overseas airline
-                                                reservations,upgrades on seats, dates of travel, other specifics (seat selection, vegetarian meals, security pre-check). He was terrific, patient, polite and personable. I can not express how
-                                                thankful I am for the good job well done. Thanks again, Alex.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Jennie B. Swain</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I travel a lot and I’ve used various companies to book my ticket online. Last time I used skyfaretravelservice.com and I can say for sure – I’m never using anything else! This is by far the
-                                                best website to find low ticket fares. It took me less than five minutes to book my Christmas tickets and I was also able to save money on them!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Leroy Felde</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I highly recommend this site because of their great customer service. Flightsbird make my journey hassle free & I got a better price than booking directly with the airline. Keep up the
-                                                good work.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Margaret W. Scheule</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                Clear pricing and always get best deals . Clear support for any changes or questions with flights. <br>
-                                                You will be glad you used them.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Jennifer J. Riddel </span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I booked airline tickets for 7 people to Rome round trip and got a great price! I read the reviews after I did and some of them scared me so much we wanted to cancel. I thought I had 24 hours
-                                                to do so and that’s true, but you need to really read the fine print. There is a cancellation charge after 4 hours. I called and spoke to Darren who said to email him to cancel And there’d be
-                                                a charge. Of course I gave him a hard time but I didn’t read the fine print. I asked about seat assignments and he said the airline would do that just contact them. So I called Alitalia and
-                                                Delta who confirmed our flights. They were wonderful about giving us seat assignments and they both said that skyfaretravelservice.com is legit. I called Darren back and apologized for giving him a hard
-                                                time and that I wasn’t cancelling. He was very gracious. I give them an excellent customer service rating! Don’t believe all the bad stuff you read!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Wendy Robinson</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The Associate skyfaretravelservice.com from that I worked with over the phone was fantastic and very patient with me. She helped me with 4 airline tickets, all the seating, then helped me
-                                                with a rent a car also! 5 star service!!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Linda M. Swanson</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My trip was fairly complex, and the young man who helped me was wonderful. At no time did he get frustrated and therefore neither did I. He was so helpful with the overseas airline
-                                                reservations, upgrades on seats, dates of travel, other specifics (seat selection, vegetarian meals, security pre- check). He was terrific, patient, polite and personable. I can’t express how
-                                                thankful I am for the good job well done.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Tarry Fletcher</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I am happy to have booked with you skyfaretravelservice.com for the price and the service you gave me. All is fine, stay as you are, professional. kind, rapid. Thank you And you need more,
-                                                what can I say. The chatting with your representative was very useful and you gave me what I needed when I wanted to change the departure date.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Rose M Thomas</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                Always my favorite place to book my Trips. People how I called them. They are very friendly and very knowledgeable. They went through every aspect of my reservation, immediately when I place
-                                                the call the responses was prompt and detailed aspects.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Nancy Wight</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I appreciated the call I received to help me finish booking my flight, as well as the benefits that I got for doing so. However, it is quite annoying that, by the time you have finished
-                                                filling out the required information for a flight, the price you had originally seen seems to disappear. Something should be done to make the experience less annoying and frustrating for
-                                                customers who wish to save money.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Cheryl Roy</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                I spoke to an agent directly because of location I was flying to, needed to be sure there were seats as flights limited. Agent was extremely helpful. There are times when you need a real
-                                                person and not simply book online, very pleased with experience.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Diana B Holloway</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The man who helped me I&#39;m very thankful for, as I needed to leave that next day. Over and above. Thank you so much. I got to my family in time and can&#39;t thank you enough for what you
-                                                have done for me.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Kimberly Cowles</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                We are pleased with the efficiency of the representative who helped us change our flight date. There was a charge which we expected, but not too bad. They were very kind and helpful making our
-                                                travel plans work for us.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Randy Wear</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                We were unexpectedly disconnected when I was receiving assistance from one of skyfaretravelservice.com agents with an international flight. And he called me back!! I have never experienced
-                                                that before. When that&#39;s happened in the past, I have needed to call again and start over with another agent. I was very impressed with this man.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Marsha Pickens</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The skyfaretravelservice.com agent, Darren, was patient and efficient and careful of the details, especially the layover times when she could make the choice. Darren followed the requirements
-                                                I gave her and explained anything I questioned including costs. I will definitely recommend skyfaretravelservice.com to friends.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Destiny Fischler</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                People on your office are accommodating and nice to talk to. They assisted me all the way for my future flight. Thank you to Darren for the help and they can easily to talk to. I hope on my
-                                                next travel rest assure that I will be counting on your office for the booking ok again. Thanks!
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Barbara A Stricker</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                My experience with skyfaretravelservice.com was a great one. The customer that helped me was very helpful. I could understand her and she was very knowledgeable in what I was trying to
-                                                achieve. I will use skyfaretravelservice.com again when I travel again. I will tell my friends about my great experience with skyfaretravelservice.com.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-4">
-                                        <div class="customers-block">
-                                            <a href="#" target="_blank">
-                                                <i class="google-icon"></i><img width="100" src="assets/img/p1a.jpg"><span>Marsha Pickens</span>
-                                                <small>
-                                                    <i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i>
-                                                    <i aria-hidden="true" class="fa fa-star"></i>
-                                                </small>
-                                            </a>
-                                            <p>
-                                                The skyfaretravelservice.com agent, Darren, was patient and efficient and careful of the details, especially the layover times when she could make the choice. Darren followed the requirements
-                                                I gave her and explained anything I questioned including costs. I will definitely recommend skyfaretravelservice.com to friends.
-                                            </p>
-                                            <div class="review-read-more"><a href="#" target="_blank">Read more on Google</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <style type="text/css">
-                        .carousel-indicators li {
-                            position: relative;
-                            -ms-flex: 0 1 auto;
-                            flex: 0 1 auto;
-                            width: 18px;
-                            height: 18px;
-                            margin-right: 5px;
-                            margin-left: 5px;
-                            text-indent: -999px;
-                            cursor: pointer;
-                            background-color: rgb(11, 20, 75);
-                            border-radius: 50%;
-                            margin-top: 0px;
-                        }
-                        .carousel-indicators {
-                            bottom: 0px !important;
-                        }
-                    </style>
                 </div>
             </div>
-        </section>
-        <section id="flights">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 price-text text-center">
-                        <h2 class="mt-4">
-                            Explore More ! <br>
-                            Best Price For First Class and Business Class United Airline Flights
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!---->
-                    <div class="col-sm-12 flights-list">
-                        <h3 class="text-center"><a href="#">Trending countries</a></h3>
-                        <ul>
-                            <!---->
-                            <li>
-                                <a href="#">
-                                    <span>Paris (France) : <b>$1100</b> </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Brussels (Belgium) : <b>$1250</b> </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Venice (Italy) : <b>$1755</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Tel Aviv (Israel) : <b>$1967</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Prague (Czech republic) : <b>$1250</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Scotland (England) : <b>$1369</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>New Delhi (India) : <b>$1921</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Lagos (Nigeria) : <b>$1580</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>London (UK) : <b>$1119</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Amsterdam : <b>$1500</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Frankfurt : <b>$2550</b> </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>MILAN : <b>$3140</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>ATHENS : <b>$2450</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>MADRID : <b>$1950</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>MUNICH : <b>$2850</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>ZURICH : <b>$1568</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>LISBON : <b>$2435</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>ViENNA : <b>$2397</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>PRAGUE : <b>$2497</b></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!---->
-                    <div class="col-sm-12 flights-list">
-                        <h3 class="text-center"><a href="#">Popular cities</a></h3>
-                        <ul>
-                            <!---->
-                            <li>
-                                <a href="#"><span>Amsterdam</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Bangkok</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>London</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Madrid</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Nice</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Paris</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Rome</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Shanghai</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Tokyo</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Vienna</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Canada</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Chicago</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        </div> 
+    </section>    -->
+    <div class="digital-marketing">
+        <h3>What is digital marketing?</h3>
+        <p>Digital marketing is a form of marketing that uses the internet and digital technologies to connect with potential customers. It involves various strategies and channels, such as search engine optimization, social media marketing, email marketing, web design, and online advertising. Digital marketing helps businesses reach and engage their target audience, increase brand awareness, generate leads, and drive sales. Digital marketing is also data-driven, meaning marketers can measure and optimize their campaigns based on real-time feedback and analytics.</p>
+      </div>
+
+      <div class="digital-marketing">
+        <h3>Some examples of successful digital marketing campaigns are:</h3>
+
+
+<p>Airbnb’s “Made Possible by Hosts” campaign, which used user-generated content (UGC) to showcase the unique experiences and stories of Airbnb hosts and guests1.
+UNIQLO’s “Uncover” campaign, which used interactive online quizzes and personalized recommendations to increase customer loyalty and sales2.
+American Express’s “OPEN Forum” campaign, which created a valuable online resource and community for small business owners, featuring expert advice, insights, and networking opportunities3.
+Slack’s word-of-mouth marketing campaign, which leveraged customer testimonials, referrals, and social proof to grow its user base and brand reputation4.
+Dove’s “Project #ShowUs” campaign, which aimed to challenge beauty stereotypes and celebrate diversity by creating the world’s largest stock photo library of women, by women5.
+These are just some of the many examples of digital marketing campaigns that have achieved remarkable results and inspired others. If you want to learn more about how to create and execute 
+
+</p>
+      </div>
+    <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
             </div>
-        </section>
-    <!-- FOOTER CODE -->
-    <footer class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 nav-footer">
-                        <a href="index-2.html">Home</a>
-                        <a href="about-us.html">About</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="disclaimer.html">Disclaimer</a>
-                        <a href="terms.html">Terms & Conditions</a>
-                        <a href="privacy-policy.html">Privacy Policy</a>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <ul class="footer-im">
-                            <li><img src="assets/img/f-l-1.png"></li>
-                            <li><img src="assets/img/f-l-2.png"></li>
-                            <li><img src="assets/img/f-l-3.png"></li>
-                            <li><img src="assets/img/f-l-4.png"></li>
-                            <li><img src="assets/img/f-l-5.png"></li>
-                            <li><img src="assets/img/f-l-6.png"></li>
-                            <li><img src="assets/img/f-l-7.png"></li>
-                            <li><img src="assets/img/f-l-8.png"></li>
-                            <li><img src="assets/img/f-l-9.png"></li>
-                        </ul>
-                    </div>
-          <div class="col-md-12">
-           <div class="dispdk">
-            <p> Disclaimer: Subject to the restrictions set out in these terms and conditions and to the degree allowed by statute, we shall only be responsible for direct losses actually caused, charged or incurred by you owing to an attributable shortfall in our service commitments, up to an estimated value of the overall cost of your booking as set out in the verification e-mail Trip Reservation. skyfaretravelservice.com is not liable (and disclaims all liability) for the use, authenticity, standard, suitability, health and proper disclosure of the Trip and does not make promises, guarantees or requirements of any sort in this regard, whether tacit, statutory and therefore, including any implied warranties of merchantability, title, non-compliance or fitness for any specific reason. You accept and recognise that the Travel Company involved is primarily accountable and takes both blame and responsibility for the Trip (including any warranties and representations made by the Trip Provider). skyfaretravelservice is not a (re)seller for just a tour. Complaints or claims relating to the trip (including those relating to the offered (special/promotional) price, policies or particular demands received by the Customer) have to be dealt with by the Trip Provider. skyfaretravelservice.com is not liable for and disclaims all responsibility with respect to all grievances, claims and (product) liabilities. </p>
-           </div>
-          </div>
-                </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
             </div>
-        </footer>
-        <div class="f-cpyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-copyright">
-                        <p class="m-0 text-left text-white text-copy">&copy; 2023 skyfaretravelservice.com (Skyfare Travels LLC) All right reserved.</p>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Your subject" required>
             </div>
-        </div>    <!-- FOOTER CODE -->
-        <div id="spinner" hidden=""><img src="assets/img/loader.gif"></div>
-        <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min_html.js"></script>
-        <script src="maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min_html.js"></script>
-        <script type="text/javascript" src="js/runtime.js"></script>
-        <script type="text/javascript" src="js/polyfills.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min-2.html"></script>
-        <!-- <script src="js/bootstrap.js"></script> -->
-        <script type="text/javascript" src="js/fuse.min.js"></script>
-        <script type="text/javascript" src="js/lodash.min.js"></script>
-        <script type="text/javascript" src="js/airports.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
- <script type="text/javascript" src="js/jquery1-ui.js"></script>
-    <center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website Downloader</a></font></center></body>
-</html>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </section> 
+
+    
+    </body>
+    </html>
